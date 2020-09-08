@@ -16,7 +16,7 @@ spec:
         app: pages
     spec:
       containers:
-      - image: dnavz/pages:config
+      - image: dnavz/pages:pipeline
         name: pages
         ports:
           - containerPort: 8080
